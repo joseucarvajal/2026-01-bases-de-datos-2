@@ -15,7 +15,7 @@ SET stock = stock - 2
 WHERE id = 1;
 
 -- Delete:
-INSERT INTO abonos_clientes (cliente_id, venta_id, fecha, monto)
-VALUES (2, 2, CURDATE(), 30000)
+DELETE FROM abonos_clientes
+WHERE id = (SELECT MAX(id) FROM abonos_clientes);
 
 

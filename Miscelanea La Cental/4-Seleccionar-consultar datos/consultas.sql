@@ -12,6 +12,7 @@ UNION: Filas A más filas de B (SIN duplicados)
 UNION ALL: Filas A más filas de B (CON duplicados)
 INTERSECT: Solamente filas que están en A y también en B (Se puede simular)
 MINUS / EXCEPT: Filas que están en A pero NO en B (Se puede simular)
+JOIN: Basico
 
 -- Reglas clave:
 El orden de las cláusulas en SQL es: - FROM -> WHERE -> GROUP BY -> HAVING -> ORDER BY -> LIMIT
